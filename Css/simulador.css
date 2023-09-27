@@ -1,0 +1,165 @@
+.first-section {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0 5%;
+    background-color: var(--clear-color);
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 3% 0;
+}
+
+.intro-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.simulador-section {
+    height: 800px;
+    background: linear-gradient( 135deg, var(--clear-color), var(--secondary-color));
+    width: 90%;
+    padding: 0 5%;
+}
+
+.simulador-intro-title {
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+
+.simulador-intro-text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.simulador-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 128px;
+}
+
+.quanto {
+    display: flex;
+    flex-direction: column;
+}
+
+.quanto-title {
+    font-size: 32px;
+    font-weight: 700;
+    width: 75%;
+}
+
+.select-title {
+    font-size: 20px;
+    font-weight: 700;
+    width: 75%;
+    margin-bottom: 16px;
+}
+
+.quanto-input {
+    background: none;
+    border: none;
+    font-size: 32px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    margin : 3% 0;
+    width: fit-content;
+}
+
+.quanto-input:focus {
+    outline: none;
+}
+
+.ganho-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.intro {
+    padding-top: 72px;
+    padding-bottom: 36px;
+}
+
+.ganho-total {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 32px 0;
+    width: fit-content;
+    border-bottom: 4px solid var(--primary-color);
+}
+
+.info-ganho {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 3% 0;
+}
+
+select {
+    background-color: var(--bright-color);
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+select:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.tabela-section {
+    width: 90%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 5%;
+    background-color: var(--primary-color);
+}
+
+.tab-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 32px 0;
+}
+
+table {
+    width: 800px;
+    text-align: center;
+    background-color: var(--primary-color-dark);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 72px;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 32px 0;
+    color: black;
+}
+
+table, th, td {
+    border: 2px solid;
+    color: #fff;
+}
+
+th, td {
+    font-size: 16px;
+    padding: 15px;
+    height: 50px;
+}
+
+th {
+    font-weight: 700;
+}

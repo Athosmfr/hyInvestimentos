@@ -1,0 +1,151 @@
+.form-section {
+    width: 90%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5%;
+    background-color: var(--primary-color);
+}
+
+.form-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 128px 0 64px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    color: #fff;
+    padding: 32px 64px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.086)px 5px 15px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 24px 0 8px;
+}
+
+input {
+    font-size: 16px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    width: 450px;
+}
+
+.input:focus, input:focus-visible {
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: var(--secondary-color);
+}
+
+.sexo-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.radio-input {
+    display: flex;
+    align-items: center;
+}
+
+#masc, #fem, #nulo {
+    margin-right: 16px;
+    width: fit-content;
+}
+
+.submit-btn {
+    margin-top: 64px;
+    align-self: center;
+}
+
+.contact-section {
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: var(--secondary-color);
+}
+
+.contact-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 128px;
+    margin-top: 32px;
+}
+
+.midias {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    background-color: var(--clear-color);
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.midia-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.logo-midia {
+    width: 50px;
+}
+
+.contatos {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    background-color: var(--background-color);
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+
+.contatos-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 32px;
+}
+
+.contato-text {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+
+b {
+    font-weight: 700;
+}
