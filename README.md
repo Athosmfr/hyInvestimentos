@@ -3,7 +3,7 @@ Website fictício sobre investimentos desenvolvido como projeto avaliativo para 
 
 ## Visão Geral
 
-O site HY Investimentos é inspirado em outros sites de investimentos, detalhando os tipos de investimentos existentes. Ele possui um simulador de investimento e, por fim, informações e um formulário de contato.
+O site HY Investimentos é inspirado em outros sites de investimentos famosos no Brasil, detalhando em questão 4 tipos de investimentos. Ele possui um simulador de investimento e, por fim, um formulário de contato.
 
 ## Tecnologias Utilizadas
 
