@@ -232,7 +232,8 @@ body {
 @media screen and (min-width: 320px) and (max-width: 459px) { 
 
     .logo {
-        width: 72px;
+        width: 36px;
+        margin: auto;
     }
 
     .link {
