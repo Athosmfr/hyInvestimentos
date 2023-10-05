@@ -85,6 +85,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* width: 250px; */
+    height: 300px;
 }
 
 .icon-size {
@@ -132,6 +134,7 @@
 .tipos-container {
     display: flex;
     height: 300px;
+    justify-content: space-evenly;
 }
 
 .tipos-box {
@@ -151,7 +154,6 @@
     font-size: 16px;
     font-weight: 300;
     color:#FFF;
-    width: 300px;
     text-align: justify;
 }
 
@@ -175,6 +177,139 @@
     font-weight: 300;
     color: #FFF;
     text-align: justify;
-    width: 300px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .about-img {
+        width: 40%;
+        height: auto;
+    }
+
+    .about-box {
+        height: 50%;
+    }
+
+    .about-title {
+        font-size: 32px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .icon-box {
+        width: 20%;
+    }
+
+    .icon-size {
+        font-size: 48px;
+    }
+
+    .icon-title {
+        font-size: 24px;
+        width: fit-content;
+    }
+
+    .icon-text {
+        width: 80%;
+    }
+
+    .tipos-container {
+        margin-bottom: 10%;
+    }
+
+    .tipos-box {
+        width: 25%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) { 
+
+    .introduction-title {
+        font-size: 36px;
+    }
+
+    .introduction-text {
+        font-size: 16px;
+    }
+
+    .about-img {
+        width: 40%;
+        height: auto;
+    }
+
+    .about-box {
+        height: 50%;
+    }
+
+    .about-title {
+        font-size: 26px;
+        margin-bottom: 10%;
+    }
+
+    .about-text {
+        font-size: 12px;
+    }
+
+    .icons-section {
+        height: fit-content;
+    }
+
+    .icons-overall {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon-box {
+        width: 60%;
+        height: auto;
+        margin-bottom: 15%;
+    }
+
+    .icon-size {
+        font-size: 48px;
+    }
+
+    .icon-title {
+        font-size: 16px;
+        width: fit-content;
+        height: 40px;
+    }
+
+    .icon-text {
+        width: 80%;
+        font-size: 12px;
+        height: fit-content;
+    }
+
+    .tipos-section {
+        height: fit-content;
+    }
+
+    .tipos-container {
+        margin-bottom: 10%;
+        height: auto;
+    }
+
+    .tipos-box {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+
+    .tipos-title {
+        font-size: 26px;
+        margin: 15% 0;
+    }
+
+    .tipos-container {
+        flex-direction: column;
+    }
+
+    .tipo-title {
+        font-size: 20px;
+    }
+
+}

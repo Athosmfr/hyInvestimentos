@@ -163,3 +163,131 @@ th, td {
 th {
     font-weight: 700;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .simulador-section {
+        height: fit-content;
+        padding: 5%;
+        padding-bottom: 20%;
+    }
+
+    .simulador-box {
+        justify-content: space-between;
+    }
+
+    .quanto {
+        width: 40%;
+    }
+
+    .quanto-title {
+        text-align: justify;
+        margin: 5% 0;
+    }
+
+    .quanto-input {
+        width: 60%;
+        font-size: 24px;
+    }
+
+    select {
+        width: 60%;
+    }
+
+    .select-title {
+        margin: 5% 0;
+    }
+
+    .info-box {
+        width: 40%;
+    }
+
+    table {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) { 
+
+    .intro-title {
+        font-size: 32px;
+    }
+
+    .simulador-intro-title {
+        font-size: 26px;
+    }
+
+    .simulador-intro-text {
+        font-size: 20px;
+    }
+
+    .simulador-section {
+        height: fit-content;
+        padding: 5%;
+        padding-bottom: 20%;
+    }
+
+    .simulador-box {
+        justify-content: space-between;
+    }
+
+    .quanto {
+        width: 40%;
+    }
+
+    .quanto-title {
+        text-align: justify;
+        margin: 5% 0;
+        width: 100%;
+        font-size: 26px;
+        margin-bottom: 15%;
+    }
+
+    .quanto-input {
+        width: 80%;
+        font-size: 16px;
+        margin-bottom: 15%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .select-title {
+        margin: 5% 0;
+        font-size: 16px;
+        margin-bottom: 15%;
+    }
+
+    .ganho-title {
+        font-size: 26px;
+        margin-bottom: 15%;
+    }
+
+    .ganho-total {
+        font-size: 20px;
+    }
+
+    .info-box {
+        width: 40%;
+    }
+
+    .info-ganho {
+        margin-bottom: 15%;
+    }
+
+    .tab-title {
+        font-size: 26px;
+    }
+
+    table {
+        width: auto;
+    }
+
+    th, td {
+        padding: 2%;
+        width: fit-content;
+        font-size: 12px;
+    }
+
+}

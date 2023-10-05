@@ -85,25 +85,38 @@ input {
     font-size: 48px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 128px;
+    margin-bottom: 32px;
     margin-top: 32px;
+}
+
+.contact-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 64px;
+    text-align: justify;
 }
 
 .midias {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 400px;
+    width: 500px;
     background-color: var(--clear-color);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 2%;
 }
 
 .midia-title {
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
+}
+
+.midia-text {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .logos {
@@ -121,14 +134,16 @@ input {
     /* align-items: center; */
     flex-direction: column;
     background-color: var(--background-color);
-    border-radius: 10px;
-    padding: 5%;
+    /* border-radius: 10px; */
+    padding: 2%;
+    width: 500px;
     color: #fff;
 }
 
 .contatos-title {
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 700;
+    margin-bottom: 16px;
 }
 
 .contato-info {
@@ -140,7 +155,7 @@ input {
 }
 
 .contato-text {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     display: flex;
     justify-content: space-between;
@@ -148,4 +163,92 @@ input {
 
 b {
     font-weight: 700;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .midias, .contatos {
+        width: 40%;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 920px) {
+
+    .contatos-title {
+        font-size: 20px;
+    }
+
+    .midia-title {
+        font-size: 20px;
+    }
+
+    .logo-midia {
+        width: 40px;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .contact-section {
+        height: auto;
+    }
+
+    .contact-title {
+        font-size: 32px;
+    }
+
+    .contact-text {
+        font-size: 16px;
+    }
+
+    .midias, .contatos {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 15%;
+        padding: 5%;
+    }
+
+    .contact-box {
+        flex-direction: column;
+    }
+
+    .contatos-title {
+        font-size: 20px;
+    }
+
+    .midia-title {
+        font-size: 20px;
+    }
+
+    .logo-midia {
+        width: 40px;
+    }
+
+    .form-title {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    form {
+        padding: 2% 4%;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    label {
+        width: fit-content;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .submit-btn {
+        margin-bottom: 15%;
+    }
 }
