@@ -1,4 +1,49 @@
-# HY Investimentos
+# (EN) HY Investments
+Fictitious investment website developed as an evaluative project for the Web Development course at Universidade Positivo.
+
+## Overview
+
+The HY Investments website is inspired by other famous investment websites in Brazil, detailing 4 types of investments. It features an investment simulator and, finally, a contact form.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Features
+
+- Responsiveness
+- Interactivity
+- Usability
+
+## Content
+
+The site includes the following sections:
+
+- **Home Page:** Provides brief information about investments and navigation buttons that redirect to other links on the site, as well as question and answer boxes.
+- **Simulator:** Page that performs a non-real simulation of 4 different types of investments, demonstrating the gain obtained over a period of 1 year.
+- **Investments:** Contains pages that describe the type of investment. There are 4 types demonstrated on the site that can be selected in the navigation bar by clicking on the dropdown menu.
+- **Contact:** Fictitious contact information about the company and links to social networks, as well as a contact form.
+
+## How to View the Project
+
+### Download and View Locally
+
+1. Download the project as a ZIP file:
+   - Go to the repository page on GitHub: [https://github.com/Athosmfr/hyInvestimentos](https://github.com/Athosmfr/hyInvestimentos).
+   - Click on the "Code" button and choose the "Download ZIP" option.
+   - After downloading, extract the files from the ZIP.
+
+2. Navigate to the directory where the files were extracted.
+
+3. Open the `index.html` file in your browser.
+
+### Direct Access to the Web Page
+
+The project is hosted online and can be accessed directly through the link: [https://athosmfr.github.io/hyInvestimentos/](https://athosmfr.github.io/hyInvestimentos/).
+
+# (PT-BR) HY Investimentos
 Website fictício sobre investimentos desenvolvido como projeto avaliativo para a disciplina de Desenvolvimento Web da Universidade Positivo.
 
 ## Visão Geral
